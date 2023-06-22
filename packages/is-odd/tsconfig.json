@@ -5,7 +5,6 @@
     "outDir": "build",
     "rootDir": "lib",
     "declaration": true,
-    "declarationDir": "build/types",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true
   },
