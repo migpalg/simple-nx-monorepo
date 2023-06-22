@@ -4,6 +4,7 @@
   "license": "MIT",
   "main": "build/commonjs/index.js",
   "module": "build/module/index.js",
+  "author": "Miguel Palacio <migpalg@gmail.com>",
   "description": "A package to see if a number is odd",
   "scripts": {
     "build": "rollup --config rollup.config.js"
