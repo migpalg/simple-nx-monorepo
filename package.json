@@ -1,6 +1,7 @@
 {
   "name": "@palam/root-monorepo",
   "version": "0.0.0",
+  "author": "Miguel Palacio <migpalg@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "nx run-many -t build"
