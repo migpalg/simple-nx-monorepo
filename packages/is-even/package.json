@@ -2,9 +2,9 @@
   "name": "@palam/is-even",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "./build/index.js",
-  "module": "./build/index.js",
-  "types": "./build/types/index.d.ts",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "types": "build/types/index.d.ts",
   "description": "A package to see if a number is even",
   "scripts": {
     "build": "tsc --project tsconfig.json"
