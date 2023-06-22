@@ -2,16 +2,19 @@
   "name": "@palam/is-odd",
   "version": "0.0.0",
   "license": "MIT",
-  "main": "build/index.js",
-  "module": "build/index.js",
+  "main": "build/commonjs/index.js",
+  "module": "build/module/index.js",
   "description": "A package to see if a number is odd",
   "scripts": {
-    "build": "tsc --project tsconfig.json"
+    "build": "rollup --config rollup.config.js"
   },
   "dependencies": {
     "@palam/is-even": "*"
   },
   "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "rollup": "^3.25.1",
     "typescript": "^5.1.3"
   }
 }
